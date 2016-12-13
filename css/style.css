@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 
@@ -163,9 +163,10 @@
 	}
 
 	header p {
-		color: #bbb;
+		color: #555F66;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		font-size: 20px;
 	}
 
 	header h2 + p {
@@ -986,7 +987,7 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/fish_bg-3.png");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1093,3 +1094,8 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+		#goleft {
+			text-align: left;
+		}
+
